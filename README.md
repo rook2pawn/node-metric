@@ -1,7 +1,8 @@
 metric
 ======
 
-Metric is a set of metric (distance) functions with assorted interfaces.
+Metric is a set of metric (distance) functions, along with assorted related functions such as similarity and preference functions,
+ with a variety of interfaces.
 
 Available functions
 ===================
