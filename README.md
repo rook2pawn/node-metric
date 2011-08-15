@@ -10,12 +10,12 @@ Metric Functions
 .rd1 (x,y) 
 -----------
 	
-!(http://upload.wikimedia.org/math/1/6/1/1616714f4b7272e8e6dda30900138981.png)
+	<img src="http://upload.wikimedia.org/math/1/6/1/1616714f4b7272e8e6dda30900138981.png">
 
 .rd2 (x,y)
 ----------
 
-!(http://upload.wikimedia.org/math/1/1/d/11d23a5aeea95552612cf9381fcf7d32.png)
+	<img src="http://upload.wikimedia.org/math/1/1/d/11d23a5aeea95552612cf9381fcf7d32.png">
 
 Non Metric, Related functions
 =============================
