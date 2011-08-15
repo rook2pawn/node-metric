@@ -7,13 +7,13 @@ Metric is a set of metric (distance) functions, along with assorted related func
 Available functions
 ===================
 
-.similar (other,self) (shortcut for .similarityFn)
---------------------------------------------------
+.similar (other,self)
+---------------------
 
 other and self are floating point, returns 0 to 1, 1 being the most similar
 
-.similarKey (other, self, key) (shortcut for .similarityFnKey (other, self, key))
----------------------------------------------------------------------------------
+.similarKey (other, self, key)
+------------------------------
 
 other and self are objects, executes similarityFn on the key
 
