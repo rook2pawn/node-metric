@@ -1,7 +1,7 @@
 metric
 ======
 
-Metric is a set of metric (distance) functions that you can use.
+Metric is a set of metric (distance) functions with assorted interfaces.
 
 Available functions
 ===================
