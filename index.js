@@ -1,3 +1,21 @@
+// metric relative difference 1
+var metricRelativeDiff1 = function(a, b) {
+	var diff = Math.abs(a - b);
+	var max = Math.max(Math.abs(a), Math.abs(b));
+	var rd = diff / max;
+	return rd;
+};
+exports.rd1 = metricRelativeDiff1;
+
+// metric relative difference 2
+var metricRelativeDiff2 = function(a, b) {
+	var diff = Math.abs(a - b);
+	var avg = (Math.abs(a) + Math.abs(b)) / 2;
+	var rd = diff / avg;
+	return rd;
+};
+exports.rd2 = metricRelativeDiff2;
+
 // similarityFn(a,b) where a and b are floating point
 // returns 0 to 1 where 1 is most similar 0 is completely dissimilar
 var similarityFn = function(other,self) {
